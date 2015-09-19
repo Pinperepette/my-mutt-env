@@ -15,7 +15,7 @@ curl -fsSl https://raw.githubusercontent.com/Pinperepette/my-mutt-env/blob/maste
 ```bash
 wget -S -O - https://raw.githubusercontent.com/Pinperepette/my-mutt-env/blob/master/install.sh | sh
 ```
-#edit your gimail settings file
+#edit your gmail settings file
 ```bash
 vim ~/.mutt_env/account_gmail/gmail
 ```
