@@ -12,7 +12,7 @@ brew install kevwil/patches/mutt --with-gpgme --with-trash-patch --with-sidebar-
 curl -fsSl https://raw.githubusercontent.com/Pinperepette/my-mutt-env/blob/master/install.sh | sh
 ```
 #or
-go to the project folder and ./install 
+go to the project folder and ./install.sh
 #edit your gmail settings file
 ```bash
 vim ~/.mutt_env/account_gmail/gmail
