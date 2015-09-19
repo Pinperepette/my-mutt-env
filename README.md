@@ -9,7 +9,7 @@ brew install kevwil/patches/mutt --with-gpgme --with-trash-patch --with-sidebar-
 
 #Install Pinperepette mutt-env
 ```bash
-curl -fsSl https://raw.githubusercontent.com/Pinperepette/my-mutt-env/blob/master/install.sh | sh
+curl -fsSl https://raw.githubusercontent.com/Pinperepette/my-mutt-env/master/install.sh | sh
 ```
 #or
 go to the project folder and ./install.sh
