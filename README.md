@@ -20,3 +20,4 @@ wget -S -O - https://raw.githubusercontent.com/Pinperepette/my-mutt-env/blob/mas
 vim ~/.mutt_env/account_gmail/gmail
 ```
 ![](https://lh3.googleusercontent.com/-hd1RYwmN_oQ/Vf1bAbjpAMI/AAAAAAAAE_w/Avou8uS1z40/w1029-h704-no/Schermata%2B2015-09-19%2Balle%2B14.53.45.png)
+for sidebar awards CTRL+B
