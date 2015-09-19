@@ -1,0 +1,8 @@
+set sidebar_width=30
+set sidebar_delim='|'
+color sidebar_new yellow default
+
+bind index \CP sidebar-prev
+bind index \CN sidebar-next
+bind index \CO sidebar-open
+macro index,pager \CB '<enter-command>toggle sidebar_visible<enter>'

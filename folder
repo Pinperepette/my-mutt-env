@@ -1,0 +1,6 @@
+#set folder
+
+set header_cache=~/.mutt_env/mutt/cache/headers
+set message_cachedir=~/.mutt_env/mutt/cache/bodies
+set certificate_file=~/.mutt_env/mutt/certificates
+set tmpdir= ~/.mutt_env/mutt/temp

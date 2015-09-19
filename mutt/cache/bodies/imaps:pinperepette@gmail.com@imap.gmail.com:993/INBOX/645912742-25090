@@ -1,0 +1,154 @@
+Delivered-To: pinperepette@gmail.com
+Received: by 10.112.125.134 with SMTP id mq6csp717930lbb;
+        Sat, 19 Sep 2015 04:53:24 -0700 (PDT)
+X-Received: by 10.152.3.136 with SMTP id c8mr4850642lac.7.1442663604024;
+        Sat, 19 Sep 2015 04:53:24 -0700 (PDT)
+Return-Path: <>
+Received: from mail-lb0-x245.google.com (mail-lb0-x245.google.com. [2a00:1450:4010:c04::245])
+        by mx.google.com with ESMTPS id ku10si3683742lac.18.2015.09.19.04.53.23
+        for <Pinperepette@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 19 Sep 2015 04:53:24 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mail-lb0-x245.google.com designates 2a00:1450:4010:c04::245 as permitted sender) client-ip=2a00:1450:4010:c04::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mail-lb0-x245.google.com designates 2a00:1450:4010:c04::245 as permitted sender) smtp.mailfrom=;
+       dkim=pass header.i=@googlemail.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=googlemail.com
+Received: by mail-lb0-x245.google.com with SMTP id mp1so10400274lbb.2
+        for <Pinperepette@gmail.com>; Sat, 19 Sep 2015 04:53:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=20120113;
+        h=mime-version:from:to:subject:message-id:date:content-type
+         :content-transfer-encoding;
+        bh=6GJbSw8/V39jSp5GnK5Py4D1ywqqnoEv9wjMSbAJUtM=;
+        b=zUYcAkPq1a5l1knyCTqKeTRmS2NwMkPk48RPyLGdw4i6nl2jVzQmtlRQzRVi1SzAMI
+         MmrEnoBgESBPsM3IkX24dCizM5Hb+qp93S1d1y1UqcOTiUXoPRxx9RC5J+KOqzyIfgHG
+         tNuCMhYMfYB76iiWarVYB+8fmLO7GtmgKtLh2ATDK+IqMWZHhDo1HR2MivXeOn/Z+qdk
+         V6dqwbjvED2vff9TW6XqYXJovSiZ6wX8jSsMeTVSNlu6Lpv9q0t02lcbLx/GxctvxIQd
+         Tg3k6miKvSLBr9TI60VXmTGl0LHHNC6IlG9WfYYveX0vJSaYXHluyANgEJXMiMt8FtXI
+         nSSw==
+X-Received: by 10.180.10.101 with SMTP id h5mr3177639wib.22.1442663603975;
+        Sat, 19 Sep 2015 04:53:23 -0700 (PDT)
+MIME-Version: 1.0
+Return-Path: <>
+Received: by 10.180.10.101 with SMTP id h5mr3548184wib.22; Sat, 19 Sep 2015
+ 04:53:23 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: Pinperepette@gmail.com
+X-Failed-Recipients: q@imac-di-andrea.local
+Subject: Delivery Status Notification (Failure)
+Message-ID: <001a11c26816a535170520184bfb@google.com>
+Date: Sat, 19 Sep 2015 11:53:23 +0000
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Delivery to the following recipient failed permanently:
+
+     q@imac-di-andrea.local
+
+Technical details of permanent failure:=20
+DNS Error: Address resolution of imac-di-andrea.local. failed: Domain name =
+not found
+
+----- Original message -----
+
+X-Received: by 10.180.10.101 with SMTP id h5mr3177612wib.22.1442663603574;
+        Sat, 19 Sep 2015 04:53:23 -0700 (PDT)
+Return-Path: <pinperepette@gmail.com>
+Received: from iMac-di-Andrea.local (host110-39-dynamic.13-79-r.retail.tele=
+comitalia.it. [79.13.39.110])
+        by smtp.gmail.com with ESMTPSA id x10sm2981581wiy.6.2015.09.19.04.5=
+3.23
+        for <q@imac-di-andrea.local>
+        (version=3DTLS1_2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128/1=
+28);
+        Sat, 19 Sep 2015 04:53:23 -0700 (PDT)
+Resent-From: Pinperepette <pinperepette@gmail.com>
+Resent-Date: Sat, 19 Sep 2015 13:53:19 +0200
+Resent-Message-ID: <20150919115319.GA8398@iMac-di-Andrea.local>
+Resent-To: q@iMac-di-Andrea.local
+Delivered-To: pinperepette@gmail.com
+Received: by 10.112.125.134 with SMTP id mq6csp716958lbb;
+        Sat, 19 Sep 2015 04:49:48 -0700 (PDT)
+X-Received: by 10.170.117.84 with SMTP id j81mr8494444ykb.47.1442663388522;
+        Sat, 19 Sep 2015 04:49:48 -0700 (PDT)
+Return-Path: <bounce-md_30066320.55fd4bcf.v1-75170105b468468f9c61add69e4eb8=
+f7@mandrillapp.com>
+Received: from mail180-12.suw31.mandrillapp.com (mail180-12.suw31.mandrilla=
+pp.com. [198.2.180.12])
+        by mx.google.com with ESMTPS id v6si6618547ywb.50.2015.09.19.04.49.=
+48
+        for <pinperepette@gmail.com>
+        (version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128/=
+128);
+        Sat, 19 Sep 2015 04:49:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-md_30066320.55fd4bcf.v1-75=
+170105b468468f9c61add69e4eb8f7@mandrillapp.com designates 198.2.180.12 as p=
+ermitted sender) client-ip=3D198.2.180.12;
+DKIM-Signature: v=3D1; a=3Drsa-sha1; c=3Drelaxed/relaxed; s=3Dmandrill; d=
+=3Dklear.com;
+ h=3DFrom:Subject:Message-Id:To:Date:MIME-Version:Content-Type; i=3Dcontact=
+@klear.com;
+ bh=3DIKrfSuUVAM5OItgrMUNzZKM+Wg0=3D;
+ b=3DfqHvpI4AEgf+mZ15sBQKDbYEI7y4qfcXzp8CGTHDAKtwzMkO3tQKew0z0LXbfWrKOhEeV2=
+gSN6hJ
+   EknlKb7pIWH7TiV9r3dnWXuC1IlAO79v+YWKGrgDW7NUF456eiqCt0ufQ5mtF8gxOz9EiHUT=
+m6pI
+   LrRtVWsecc7ZUYUuThQ=3D
+DomainKey-Signature: a=3Drsa-sha1; c=3Dnofws; q=3Ddns; s=3Dmandrill; d=3Dkl=
+ear.com;
+ b=3DL5lA2FCiFRoDzoO+W4X/bi8o2nxdIP47J307Vl7w3quDvBD3SDYsP6O2LhgCd+U6JukQAe=
+ZukyIF
+   1E/yJFAmUpM4R3icskSXmghkMuveQ8mhbMFSHErN5HnQI44VTUkCx3gN78pb/x7oQJdtgoVZ=
+Fsgx
+   65JO29JGuo1t9+CEcLo=3D;
+Received: from pmta03.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail180=
+-12.suw31.mandrillapp.com id hvl5to22sc0b for <pinperepette@gmail.com>; Sat=
+, 19 Sep 2015 11:49:35 +0000 (envelope-from <bounce-md_30066320.55fd4bcf.v1=
+-75170105b468468f9c61add69e4eb8f7@mandrillapp.com>)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; d=3Dmandrillapp=
+.com;=20
+ i=3D@mandrillapp.com; q=3Ddns/txt; s=3Dmandrill; t=3D1442663375; h=3DFrom =
+:=20
+ Subject : Message-Id : To : Date : MIME-Version : Content-Type : From :=20
+ Subject : Date : X-Mandrill-User : List-Unsubscribe;=20
+ bh=3DJDTjW/1mVVwfssEZAyMS809Faq/fUILVAsvrSMX4VkQ=3D;=20
+ b=3DOqwJQaQMOISXTeWdVPlHZWIujQU81akkE/Mh2gN+WMPwe2Si4ATYfY7CX4z5/4Lo0t8QS1
+ t5ARipBaXnpNWBneMBH7PvDfI2kARM84iBmrlTc6rLvDxdR/mz4aRZXxAa4k12B/sViglbJs
+ 6FeaFz3rhjwGyykcR2AUk/bzmUu/8=3D
+From: Klear <contact@klear.com>
+Subject: Your Weekly Stats From Klear
+Return-Path: <bounce-md_30066320.55fd4bcf.v1-75170105b468468f9c61add69e4eb8=
+f7@mandrillapp.com>
+Received: from [80.179.147.201] by mandrillapp.com id 75170105b468468f9c61a=
+dd69e4eb8f7; Sat, 19 Sep 2015 11:49:35 +0000
+Message-Id: <c93515ec6ef66ab7077f8be9b00eea1d@swift.generated>
+To: the Pirate <pinperepette@gmail.com>
+X-Report-Abuse: Please forward a copy of this message, including all header=
+s, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/cont=
+act/abuse?id=3D30066320.75170105b468468f9c61add69e4eb8f7
+X-Mandrill-User: md_30066320
+Date: Sat, 19 Sep 2015 11:49:35 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=3D"_av-sTcillvD1FBYJciz6Z7C_g=
+"
+
+    Klear Updates                  *Hi the Pirate,*     Your social media
+report for the past 7 days. (@Pinperepette)           Tweets     48       =
+=20
+Replies     25                 Retweets     23  +22% (than average week)  =
+=20
+     New Followers     1  -98% (than average week)               Are you a
+professional?
+ Upgrade to Klear PRO and take your brand to the next level.
+   Start 14-Day Free Trial
+<https://klear.com/premium.php?source=3DweeklyEmail#pricingPlans>         =
+=20
+=C2=AE Twtrland, 2013
+ You are recieving this email as a Klear user. Click here to Unsubscribe
+<https://klear.com/ws/unsubscribe.php?user_id=3D314571&hash=3De8a386a8b64d0=
+9ad6132bbb84d85f8d6>
+            Follow Us <http://www.twitter.com/klear_com>   Like Us
+<http://www.facebook.com/twtrland>     Our Mailing Address is: Twtrland
+LTD., Matam Park st, building 5/1, Haifa IL., 34337.

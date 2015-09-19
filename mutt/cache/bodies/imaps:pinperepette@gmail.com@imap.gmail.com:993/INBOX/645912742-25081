@@ -1,0 +1,74 @@
+Delivered-To: pinperepette@gmail.com
+Received: by 10.112.125.134 with SMTP id mq6csp479336lbb;
+        Fri, 18 Sep 2015 14:12:48 -0700 (PDT)
+X-Received: by 10.141.23.9 with SMTP id z9mr9594695qhd.24.1442610768812;
+        Fri, 18 Sep 2015 14:12:48 -0700 (PDT)
+Return-Path: <kkstyle21@gmail.com>
+Received: from mail-qg0-x22c.google.com (mail-qg0-x22c.google.com. [2607:f8b0:400d:c04::22c])
+        by mx.google.com with ESMTPS id c59si4492366qge.28.2015.09.18.14.12.48
+        for <pinperepette@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 18 Sep 2015 14:12:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kkstyle21@gmail.com designates 2607:f8b0:400d:c04::22c as permitted sender) client-ip=2607:f8b0:400d:c04::22c;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kkstyle21@gmail.com designates 2607:f8b0:400d:c04::22c as permitted sender) smtp.mailfrom=kkstyle21@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-x22c.google.com with SMTP id v79so23376081qge.0
+        for <pinperepette@gmail.com>; Fri, 18 Sep 2015 14:12:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=lYbNzcm8YCx+fdsFYW98bGiaTRNhDw9NtOjLWoyE5W8=;
+        b=LPzKUP4Qyr98mCewfgJfMuaAo3fOahqcECHYw6v8Tw3aYsIaVM0niHEHp6uEAGd/w6
+         kPoOLK6fEEhDZQrtQZ0fijaOy2iCCSFJBdqSNXXYEGnBfJq/hGxzFBskdTXOBVe63GfS
+         1+gMkEbizie6u3Aks38ZuOC/TB2PLLbOtjfmFQrtwErARxUhyUs0853n21SnL+n+X5K0
+         9MigM0p7dfvIkydlyXuFAS+8YO7Sj2oyuMlfUAftdotYKcMNwtOR4s929dw/q5AVycy5
+         wwiCyXvMcrpTUDlTnoO57x1tq7BqoM1OnQVOXra2doPkMac0t3qvS+y9hrsq5yV+wGg9
+         gMtw==
+MIME-Version: 1.0
+X-Received: by 10.140.133.135 with SMTP id 129mr9410179qhf.95.1442610768570;
+ Fri, 18 Sep 2015 14:12:48 -0700 (PDT)
+Received: by 10.140.81.6 with HTTP; Fri, 18 Sep 2015 14:12:48 -0700 (PDT)
+In-Reply-To: <20150918211157.GA16028@iMac-di-Andrea.local>
+References: <CABWvDG5xnnshGHjWsu+kc=mDY3mVUnh9JvqiXWu1F=tqZXAK=Q@mail.gmail.com>
+	<20150918211157.GA16028@iMac-di-Andrea.local>
+Date: Fri, 18 Sep 2015 23:12:48 +0200
+Message-ID: <CABWvDG7S8A=nYkCcrYDuok7UXucSgFSZ+i3izMz8TpZhxeCe0g@mail.gmail.com>
+Subject: Re: test
+From: daniele ilardo <kkstyle21@gmail.com>
+To: Pinpe Repette <pinperepette@gmail.com>
+Content-Type: multipart/alternative; boundary=001a1136fd7c68eda805200bfeed
+
+--001a1136fd7c68eda805200bfeed
+Content-Type: text/plain; charset=UTF-8
+
+suca
+
+2015-09-18 23:12 GMT+02:00 Pinpe Repette <pinperepette@gmail.com>:
+
+> On Fri, Sep 18, 2015 at 11:11:12PM +0200, daniele ilardo wrote:
+> > ciao
+> ciao a te :)
+> --
+> Pinperepette - Security Researcher
+>
+
+--001a1136fd7c68eda805200bfeed
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">suca</div><div class=3D"gmail_extra"><br><div class=3D"gma=
+il_quote">2015-09-18 23:12 GMT+02:00 Pinpe Repette <span dir=3D"ltr">&lt;<a=
+ href=3D"mailto:pinperepette@gmail.com" target=3D"_blank">pinperepette@gmai=
+l.com</a>&gt;</span>:<br><blockquote class=3D"gmail_quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">On Fri, Sep 18, 201=
+5 at 11:11:12PM +0200, daniele ilardo wrote:<br>
+&gt; ciao<br>
+ciao a te :)<br>
+<span class=3D"HOEnZb"><font color=3D"#888888">--<br>
+Pinperepette - Security Researcher<br>
+</font></span></blockquote></div><br></div>
+
+--001a1136fd7c68eda805200bfeed--

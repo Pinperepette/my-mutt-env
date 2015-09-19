@@ -1,0 +1,31 @@
+
+#folder
+source ~/.mutt_env/folder
+
+#siedebar
+source ~/.mutt_env/siedebar
+
+#theme
+source ~/.mutt_env/theme/solarized-dark-256.muttrc
+
+
+#settings
+set move =no
+unset imap_passive
+set imap_keepalive =900
+set menu_scroll
+set editor= "vim"
+set query_command="pc_query -m '%s'"
+set sort = threads                     
+set sort_aux = reverse-last-date-received 
+set pager_stop
+set fast_reply
+set include     
+set reverse_name 
+set envelope_from
+auto_view text/html
+alternative_order text/plain text/enriched text/html
+
+
+#account
+source ~/.mutt_env/account_gmail/gmail

@@ -1,0 +1,53 @@
+Delivered-To: pinperepette@gmail.com
+Received: by 10.112.125.134 with SMTP id mq6csp715762lbb;
+        Sat, 19 Sep 2015 04:45:28 -0700 (PDT)
+X-Received: by 10.55.42.163 with SMTP id q35mr11810636qkq.107.1442663128847;
+        Sat, 19 Sep 2015 04:45:28 -0700 (PDT)
+Return-Path: <kkstyle21@gmail.com>
+Received: from mail-qg0-x22a.google.com (mail-qg0-x22a.google.com. [2607:f8b0:400d:c04::22a])
+        by mx.google.com with ESMTPS id f7si12450568qka.44.2015.09.19.04.45.28
+        for <pinperepette@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 19 Sep 2015 04:45:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kkstyle21@gmail.com designates 2607:f8b0:400d:c04::22a as permitted sender) client-ip=2607:f8b0:400d:c04::22a;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kkstyle21@gmail.com designates 2607:f8b0:400d:c04::22a as permitted sender) smtp.mailfrom=kkstyle21@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-x22a.google.com with SMTP id 47so57887558qgt.2
+        for <pinperepette@gmail.com>; Sat, 19 Sep 2015 04:45:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type;
+        bh=JVQl7u0Yp4b9IpQnzhUGdoUzYjpCbsi6aOWR3YwZc9E=;
+        b=pKUXGAvHXXOWwZTOgC+1dZMn7vcs6+w8jj77gv4RmIM5rrAyL2uWpE5/SRmkX0mTWA
+         Doi9OJqjnbx+sOX4YiFLZhEAKuvp8qXaY6xC6Ml0jwjCUNhhJ65k/eV7aq6IBlUH17BZ
+         5GiTQu8OOInhCISnH8EsYG5j6SlWPxRqKeaAh+LP6bDtREL/Aw9uJHfO29KwJUi9QP79
+         PPlEdxnrA1mJ/XaC9fpmr5Vdd7bIHHF0EY9Tkl8Q2H5CQaRFXiFD5YQoQs2SiznrrpGe
+         xNnbAQX3J72hpuyvspcPND/uKmCykVxLwzNeIes5hcLZhyyUfVPT71NXsV7IQCdcdUCs
+         9aLQ==
+MIME-Version: 1.0
+X-Received: by 10.140.19.227 with SMTP id 90mr11679115qgh.51.1442663128415;
+ Sat, 19 Sep 2015 04:45:28 -0700 (PDT)
+Received: by 10.140.81.6 with HTTP; Sat, 19 Sep 2015 04:45:28 -0700 (PDT)
+In-Reply-To: <20150919114431.GA8056@iMac-di-Andrea.local>
+References: <CABWvDG5xnnshGHjWsu+kc=mDY3mVUnh9JvqiXWu1F=tqZXAK=Q@mail.gmail.com>
+	<20150918211157.GA16028@iMac-di-Andrea.local>
+	<CABWvDG7S8A=nYkCcrYDuok7UXucSgFSZ+i3izMz8TpZhxeCe0g@mail.gmail.com>
+	<20150919113428.GA7482@iMac-di-Andrea.local>
+	<CABWvDG5X0V7e5frgzjqN49uKgFejCrnVq_RMRcarevvjikOe=Q@mail.gmail.com>
+	<20150919114431.GA8056@iMac-di-Andrea.local>
+Date: Sat, 19 Sep 2015 13:45:28 +0200
+Message-ID: <CABWvDG5mhGFNxKJHO1RSvohdvH2a-SjMHW1hV3SNcrdT6ws9Xw@mail.gmail.com>
+Subject: Re: test
+From: daniele ilardo <kkstyle21@gmail.com>
+To: Pinpe Repette <pinperepette@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+
+lol
+
+Il 19/09/15, Pinpe Repette<pinperepette@gmail.com> ha scritto:
+> no, sto impazzendo con sto cazzo di gmail che devo fargli beccare le
+> caselle interne per fare il fiko con la sidebar muhahahaha
+>

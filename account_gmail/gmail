@@ -1,0 +1,19 @@
+#mutt config gmail account
+
+set imap_user = "YOURNAME@gmail.com"
+
+# for double autentification generates GOOGLE APPLICATION PASSWORD https://support.google.com/accounts/answer/185833?hl
+
+set imap_pass = "YOUR PASS OR YOUR GOOGLE APPLICATION PASSWORD CODE"
+set smtp_url = "smtp://YOURNAME@smtp.gmail.com:587/"
+set smtp_authenticators = 'gssapi:login'
+set smtp_pass = "YOUR PASS OR YOUR GOOGLE APPLICATION PASSWORD CODE"
+set from = "YOURNAME@gmail.com"
+set realname = "YOUR REAL NAME"
+
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "imaps://imap.gmail.com:993/INBOX"
+set postponed= "imaps://imap.gmail.com/[Gmail]/Drafts"
+set mbox= "imaps://imap.gmail.com/[Gmail]/All Mail"
+set record= "imaps://imap.gmail.com/[Gmail]/Sent Mail"
+mailboxes =INBOX ="imaps://imap.gmail.com/[Gmail]/Sent Mail" ="imaps://imap.gmail.com/[Gmail]/All Mail" ="imaps://imap.gmail.com/[Gmail]/Drafts"
